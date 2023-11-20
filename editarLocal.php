@@ -49,10 +49,10 @@ if(!isset($_SESSION['login'])){
 </nav>
 
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "alimentandoesperancas";
+$servername = "sql109.infinityfree.com";
+$username = "if0_34787830";
+$password = "bhjVt2NxBKselw";
+$dbname = "if0_34787830_alimentandoEsperancasPPI";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
